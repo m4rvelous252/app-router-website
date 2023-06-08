@@ -1,0 +1,36 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"title": {
+				"__TYPE__": "FieldContent",
+				"value": "main",
+				"type": "Text"
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"label",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "differ",
+							"type": "Text"
+						}
+					],
+					[
+						"href",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "disappear",
+							"type": "Text"
+						}
+					]
+				]
+			}
+		]
+	}
+]

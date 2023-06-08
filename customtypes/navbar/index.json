@@ -1,0 +1,31 @@
+{
+  "id": "navbar",
+  "label": "Navbar",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "navigation_items": {
+        "type": "Group",
+        "config": {
+          "label": "Navigation Items",
+          "fields": {
+            "label": {
+              "type": "Text",
+              "config": { "label": "label", "placeholder": "" }
+            },
+            "href": {
+              "type": "Link",
+              "config": { "label": "href", "placeholder": "", "select": null }
+            }
+          }
+        }
+      },
+      "uid": { "type": "UID", "config": { "label": "UID", "placeholder": "" } },
+      "logourl": {
+        "type": "Image",
+        "config": { "label": "logoUrl", "constraint": {}, "thumbnails": [] }
+      }
+    }
+  }
+}

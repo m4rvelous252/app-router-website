@@ -1,0 +1,32 @@
+{
+  "id": "menu_item",
+  "type": "SharedSlice",
+  "name": "MenuItem",
+  "description": "MenuItem",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "title": {
+          "type": "Text",
+          "config": { "label": "Title", "placeholder": "" }
+        }
+      },
+      "items": {
+        "label": {
+          "type": "Text",
+          "config": { "label": "Label", "placeholder": "" }
+        },
+        "href": {
+          "type": "Text",
+          "config": { "label": "href", "placeholder": "" }
+        }
+      }
+    }
+  ]
+}

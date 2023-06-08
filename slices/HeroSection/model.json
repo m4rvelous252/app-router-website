@@ -1,0 +1,51 @@
+{
+  "id": "hero_section",
+  "type": "SharedSlice",
+  "name": "HeroSection",
+  "description": "HeroSection",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "small_text": {
+          "type": "Text",
+          "config": { "label": "Small Text", "placeholder": "" }
+        },
+        "title": {
+          "type": "Text",
+          "config": { "label": "Title", "placeholder": "" }
+        },
+        "sub_title": {
+          "type": "Text",
+          "config": { "label": "Sub Title", "placeholder": "" }
+        },
+        "button_text": {
+          "type": "Text",
+          "config": { "label": "Button Text", "placeholder": "" }
+        },
+        "product_image": {
+          "type": "Link",
+          "config": {
+            "label": "Product Image",
+            "placeholder": "",
+            "select": "media"
+          }
+        },
+        "background_image": {
+          "type": "Link",
+          "config": {
+            "label": "Background Image",
+            "placeholder": "",
+            "select": "media"
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}
